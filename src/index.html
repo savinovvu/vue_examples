@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>vue example</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+  <script src="./index.js" defer></script>
+</head>
+<body>
+
+<div id="app">
+  {{ message }}
+</div>
+
+<div id="app-2">
+  Hover your mouse over me for a few seconds
+  to see my dynamically bound title!
+</div>
+
+<div id="app-3">
+  <span v-if="seen">Now you see me</span>
+</div>
+
+</body>
+</html>
